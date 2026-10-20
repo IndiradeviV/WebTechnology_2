@@ -1,0 +1,61 @@
+
+# ==============================
+# Secrets and environment files
+# ==============================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ==============================
+# Eclipse / Java generated files
+# ==============================
+**/build/
+**/bin/
+**/target/
+*.class
+.metadata/
+**/.metadata/
+
+# Keep Eclipse project configuration
+# .project and .classpath should remain tracked
+# Keep .settings if needed to reopen the project
+
+# ==============================
+# VS Code / IDE settings
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# Node.js, if used
+# ==============================
+node_modules/
+npm-debug.log*
+coverage/
+dist/
+
+# ==============================
+# Python, if used
+# ==============================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ==============================
+# Temporary and log files
+# ==============================
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Database backups
+# ==============================
+*.sqlite
+*.sqlite3
